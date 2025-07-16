@@ -34,7 +34,7 @@ export default function ProfileCard() {
     // Show card with a slower animation
     const cardTimeout = setTimeout(() => setShowCard(true), 300);
     // Show each link with a slower, staggered delay
-    let timeouts: NodeJS.Timeout[] = [];
+    const timeouts: NodeJS.Timeout[] = [];
     links.forEach((_, i) => {
       timeouts.push(
         setTimeout(() => {
@@ -73,7 +73,7 @@ export default function ProfileCard() {
           <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight drop-shadow-sm">Aman Kumar</h1>
         </div>
         <p className="text-gray-600 text-center mt-2 text-base max-w-xs leading-relaxed">
-          I work in React, Nextjs, Nodejs. I also have a bit of knowledge of <b>DevOps</b>, and I'm currently exploring <b>Framer</b> and <b>React Native</b>.
+          I work in React, Nextjs, Nodejs. I also have a bit of knowledge of <b>DevOps</b>, and I&apos;m currently exploring <b>Framer</b> and <b>React Native</b>.
         </p>
         <div className="mt-8 w-full flex flex-col gap-4">
           {links.map((link, i) => (
