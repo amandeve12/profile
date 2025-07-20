@@ -7,7 +7,7 @@ const links = [
   {
     icon: <FaGlobe className="text-xl" />, // Personal Website
     label: "Work",
-    href: "https://my-case-studies-omega.vercel.app/",
+    href: "https://my-case-studies-lake.vercel.app/",
   },
   {
     icon: <FaXTwitter className="text-xl" />, // X / Twitter
