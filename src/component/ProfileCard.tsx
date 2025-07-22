@@ -81,10 +81,10 @@ export default function ProfileCard() {
         </h1>
 
         {/* Description */}
-        <p className="text-gray-600 text-center mt-3 text-xs leading-relaxed max-w-xs">
-          I work in React, Next.js, and Node.js. I'm also exploring{" "}
-          <b>DevOps</b>, <b>Framer</b>..
-        </p>
+        <p className="text-gray-600 text-center mt-3 text-sm leading-relaxed max-w-xs">
+  I work in React, Next.js, and Node.js. I&#39;m also exploring <b>DevOps</b>, <b>Framer</b>, and <b>React Native</b>.
+</p>
+
 
         {/* Links */}
         <div className="mt-6 w-full flex flex-col gap-3">
